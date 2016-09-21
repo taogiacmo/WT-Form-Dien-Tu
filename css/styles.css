@@ -1,0 +1,91 @@
+
+    body { 
+	  background: url(../img/bg_lg.jpg) no-repeat center center fixed  #192531; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+	body.users{
+		background: none;
+		/*padding-left: 15px;*/
+		margin-left: 0;
+        overflow-x:hidden !important;
+	}
+	div.bodytop{
+	  height:317px;
+	  background: url(../img/head.jpg) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+	div.bodytitle{
+	  height:50px;
+	  color:#fff;
+	  font-weight: bold;
+	  font-size: 16px;
+	  padding-top: 20px;
+	  padding-left:20px;
+	}
+	div.bodytitle a{
+	  color:#fff;
+	  text-decoration:none;		
+	}
+	a.btn{
+	  font-weight: bold;
+	  font-size: 12px;
+	  width: 170px;
+	}
+	div.khungbutton{
+		background-color: #fff;
+	    border-radius: 10px;
+	    border: 2px solid #73AD21; 
+	    /*width: 220px;	    */
+	    min-height: 580px;
+	    padding: 27px 7px 27px 7px ;
+	}
+	div.boxbutton{
+		width: 130px;
+		float:left;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	    padding: 27px 7px 27px 7px ;
+	}
+	div.boxtitle{width: 110px;}
+	div.boxtitle a{
+		color: #fff;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	div.boxtitle{
+		padding-top: 10px;
+		text-align: center;
+	}
+	div.boximg{
+		background-color: #fff;
+    	box-shadow: -5px -5px 0 #888888;
+    	width:110px;
+    	height:120px;
+    	padding-top: 7px;
+	    border-radius: 10px;
+	    text-align: center;
+	}
+	.anhdhleft{
+		width: 220px;
+		border: none;
+	}
+  iframe.anhdhright{
+      border-radius: 10px;
+      border: none;
+      width:100%; 
+      height:1800px;
+      min-width: 300px;
+      /*min-height: 1024px;
+      min-width: 660px !important;
+      overflow-x:hidden !important*/
+  }
+  div.anhdhrow{
+  	border-top: 1px solid #fff; 
+  	display: table;
+  }
